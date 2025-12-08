@@ -1,0 +1,138 @@
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; 
+ 
+}
+
+/* Big green frame around header */
+.top-border {
+  border: 20px solid rgb(16, 100, 45);
+  text-align: center;
+  padding: 20px;
+  background-color: #f8fff8;
+}
+h1 {
+  margin: 0;
+  color: rgb(16, 100, 45);
+ 
+}
+
+/* Top menu */
+.top-menu {
+  background: rgb(27, 120, 60);
+  padding: 10px;
+  text-align: center;
+
+}
+
+.top-menu a {
+  color: #f8fff8;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;  
+ 
+}
+
+.top-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Paragraph boxes with borders */
+.content-box {
+  border: 3px solid rgb(16, 100, 45);
+  background: white;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+h3 {
+margin-left: 60px;
+}
+h2 {
+    text-align: center;
+    font-size: smaller;
+    font-style: normal; color: rgb(117, 175, 117);
+    
+}
+/* Overall page container with green border */
+.page-wrapper {
+  border: 20px solid rgb(16, 100, 45);
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f8fff8;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+/* Headings */
+h2, h3, h4 {
+  color: rgb(16, 100, 45);
+  font-family: Georgia, serif;
+  margin-top: 25px;
+}
+
+h2 {
+  font-size: 2rem;
+  border-bottom: 3px solid rgb(16, 100, 45);
+  padding-bottom: 8px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+
+/* Paragraph styling */
+p {
+  line-height: 1.6;
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+  color: #222;
+  margin-left: 20px;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 35px;
+}
+
+/* Link styling (if needed elsewhere on site) */
+a {
+  color: rgb(16, 100, 45);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: soft drop-shadow to make the content pop */
+.page-wrapper {
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+img {
+    margin: 20px;
+    padding-left: 20px
+    
+}
